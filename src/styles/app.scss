@@ -1,0 +1,65 @@
+@import './bootstrap-grid.css';
+
+body {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+}
+
+input {
+  min-width: auto;
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+.container {
+  margin-top: 1rem;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+
+  label {
+    font-size: 12px
+  }
+}
+
+.math-symbol {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  margin-right: 1rem;
+  margin-bottom: 1.25rem;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid black;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+
+.card-title {
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+th {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+th, td {
+  padding: .25rem;
+}
